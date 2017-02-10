@@ -45,6 +45,7 @@ class TransferenciaCaixaBanco implements ToArrayInterface
 
 
     /**
+     * Método responsável por preencher os dados para o funcionamento da entidade de Transferência Caixa Banco
      * @param \stdClass $data
      */
     public function populate(\stdClass $data)
