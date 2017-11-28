@@ -47,6 +47,11 @@ class CreditoFornecedor
     private $DscObservacao;
 
     /**
+     * @var string
+     */
+    private $NumDocumento;
+
+    /**
      * @return int
      */
     public function getCodEmpresa(): int
@@ -172,5 +177,21 @@ class CreditoFornecedor
     public function setDscObservacao(string $DscObservacao)
     {
         $this->DscObservacao = $DscObservacao;
+    }
+
+    /**
+     * @param string $NumDocumento
+     */
+    public function setNumDocumento(string $NumDocumento)
+    {
+        $this->NumDocumento = $NumDocumento;
+    }
+
+    /**
+     * @return string
+     */
+    public function getNumDocumento(): string
+    {
+        return $this->NumDocumento;
     }
 }
